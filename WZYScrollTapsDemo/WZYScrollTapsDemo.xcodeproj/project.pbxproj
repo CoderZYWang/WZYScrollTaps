@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4AB1DC21E1CC6AD003206B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AB1DC11E1CC6AD003206B6 /* main.m */; };
+		E4AB1DC51E1CC6AD003206B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AB1DC41E1CC6AD003206B6 /* AppDelegate.m */; };
+		E4AB1DC81E1CC6AD003206B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AB1DC71E1CC6AD003206B6 /* ViewController.m */; };
+		E4AB1DCB1E1CC6AD003206B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4AB1DC91E1CC6AD003206B6 /* Main.storyboard */; };
+		E4AB1DCD1E1CC6AD003206B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AB1DCC1E1CC6AD003206B6 /* Assets.xcassets */; };
+		E4AB1DD01E1CC6AD003206B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4AB1DCE1E1CC6AD003206B6 /* LaunchScreen.storyboard */; };
+		E4AB1DD91E1CC787003206B6 /* WZYScrollTapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AB1DD81E1CC787003206B6 /* WZYScrollTapsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4AB1DBD1E1CC6AD003206B6 /* WZYScrollTapsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZYScrollTapsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AB1DC11E1CC6AD003206B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4AB1DC31E1CC6AD003206B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4AB1DC41E1CC6AD003206B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4AB1DC61E1CC6AD003206B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E4AB1DC71E1CC6AD003206B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4AB1DCA1E1CC6AD003206B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4AB1DCC1E1CC6AD003206B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4AB1DCF1E1CC6AD003206B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4AB1DD11E1CC6AD003206B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4AB1DD71E1CC787003206B6 /* WZYScrollTapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZYScrollTapsViewController.h; sourceTree = "<group>"; };
+		E4AB1DD81E1CC787003206B6 /* WZYScrollTapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZYScrollTapsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4AB1DBA1E1CC6AD003206B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4AB1DB41E1CC6AC003206B6 = {
+			isa = PBXGroup;
+			children = (
+				E4AB1DBF1E1CC6AD003206B6 /* WZYScrollTapsDemo */,
+				E4AB1DBE1E1CC6AD003206B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4AB1DBE1E1CC6AD003206B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4AB1DBD1E1CC6AD003206B6 /* WZYScrollTapsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4AB1DBF1E1CC6AD003206B6 /* WZYScrollTapsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E4AB1DC61E1CC6AD003206B6 /* ViewController.h */,
+				E4AB1DC71E1CC6AD003206B6 /* ViewController.m */,
+				E4AB1DD71E1CC787003206B6 /* WZYScrollTapsViewController.h */,
+				E4AB1DD81E1CC787003206B6 /* WZYScrollTapsViewController.m */,
+				E4AB1DC01E1CC6AD003206B6 /* Supporting Files */,
+			);
+			path = WZYScrollTapsDemo;
+			sourceTree = "<group>";
+		};
+		E4AB1DC01E1CC6AD003206B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4AB1DC31E1CC6AD003206B6 /* AppDelegate.h */,
+				E4AB1DC41E1CC6AD003206B6 /* AppDelegate.m */,
+				E4AB1DC91E1CC6AD003206B6 /* Main.storyboard */,
+				E4AB1DCC1E1CC6AD003206B6 /* Assets.xcassets */,
+				E4AB1DCE1E1CC6AD003206B6 /* LaunchScreen.storyboard */,
+				E4AB1DD11E1CC6AD003206B6 /* Info.plist */,
+				E4AB1DC11E1CC6AD003206B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4AB1DBC1E1CC6AD003206B6 /* WZYScrollTapsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4AB1DD41E1CC6AD003206B6 /* Build configuration list for PBXNativeTarget "WZYScrollTapsDemo" */;
+			buildPhases = (
+				E4AB1DB91E1CC6AD003206B6 /* Sources */,
+				E4AB1DBA1E1CC6AD003206B6 /* Frameworks */,
+				E4AB1DBB1E1CC6AD003206B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZYScrollTapsDemo;
+			productName = WZYScrollTapsDemo;
+			productReference = E4AB1DBD1E1CC6AD003206B6 /* WZYScrollTapsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4AB1DB51E1CC6AC003206B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wzy;
+				TargetAttributes = {
+					E4AB1DBC1E1CC6AD003206B6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3FC3C5UY9N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E4AB1DB81E1CC6AC003206B6 /* Build configuration list for PBXProject "WZYScrollTapsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4AB1DB41E1CC6AC003206B6;
+			productRefGroup = E4AB1DBE1E1CC6AD003206B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4AB1DBC1E1CC6AD003206B6 /* WZYScrollTapsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4AB1DBB1E1CC6AD003206B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AB1DD01E1CC6AD003206B6 /* LaunchScreen.storyboard in Resources */,
+				E4AB1DCD1E1CC6AD003206B6 /* Assets.xcassets in Resources */,
+				E4AB1DCB1E1CC6AD003206B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4AB1DB91E1CC6AD003206B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AB1DD91E1CC787003206B6 /* WZYScrollTapsViewController.m in Sources */,
+				E4AB1DC81E1CC6AD003206B6 /* ViewController.m in Sources */,
+				E4AB1DC51E1CC6AD003206B6 /* AppDelegate.m in Sources */,
+				E4AB1DC21E1CC6AD003206B6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4AB1DC91E1CC6AD003206B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4AB1DCA1E1CC6AD003206B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4AB1DCE1E1CC6AD003206B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4AB1DCF1E1CC6AD003206B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4AB1DD21E1CC6AD003206B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4AB1DD31E1CC6AD003206B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4AB1DD51E1CC6AD003206B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3FC3C5UY9N;
+				INFOPLIST_FILE = WZYScrollTapsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderZYWang.dev.WZYScrollTapsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E4AB1DD61E1CC6AD003206B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3FC3C5UY9N;
+				INFOPLIST_FILE = WZYScrollTapsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoderZYWang.dev.WZYScrollTapsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4AB1DB81E1CC6AC003206B6 /* Build configuration list for PBXProject "WZYScrollTapsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AB1DD21E1CC6AD003206B6 /* Debug */,
+				E4AB1DD31E1CC6AD003206B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4AB1DD41E1CC6AD003206B6 /* Build configuration list for PBXNativeTarget "WZYScrollTapsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AB1DD51E1CC6AD003206B6 /* Debug */,
+				E4AB1DD61E1CC6AD003206B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4AB1DB51E1CC6AC003206B6 /* Project object */;
+}
